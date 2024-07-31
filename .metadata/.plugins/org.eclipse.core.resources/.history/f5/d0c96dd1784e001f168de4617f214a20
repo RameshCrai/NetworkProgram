@@ -1,0 +1,22 @@
+package URL;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.util.Scanner;
+
+public class UrlDecoder {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter encoded URL:");
+        String encodedUrl = scanner.nextLine();
+
+        try {
+            // Decode the URL using UTF-8 encoding
+            String decodedUrl = URLDecoder.decode(encodedUrl, "UTF-8");
+            System.out.println("Decoded URL: " + decodedUrl);
+        } catch (UnsupportedEncodingException e) {
+            System.err.println("UTF-8 encoding is not supported.");
+        }
+    }
+}
+

@@ -27,11 +27,11 @@ public class Validation
         InetAddressValidator validator = InetAddressValidator.getInstance();
 
         // Validate an IPv4 address
-        if (validator.isValid(INET4ADDRESS)) {
+        if (validator.isValid(INET4ADDRESS)) 
             System.out.println("The IP address " + INET4ADDRESS + " is valid");
-        } else {
+         else 
             System.out.println("The IP address " + INET4ADDRESS + " isn't valid");
-        }
+        
 
         // Validate an IPv6 address
         if (validator.isValid(INET6ADDRESS)) {

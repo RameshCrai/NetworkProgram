@@ -15,21 +15,17 @@ The Enumeration Interface defines the functions by which we can enumerate the el
 **/
 //To print all the netwrok interfaces of the localhost.
 import java.util.*;
-import java.lang.*; 
-import java.net.*; 
-public class Netinterface
-{
-public static void main(String[] args)
-{ 
-try
-{ 
-Enumeration n = NetworkInterface.getNetworkInterfaces();
-while(n.hasMoreElements()) 
-System.out.println(n.nextElement()); 
-}
-catch(SocketException e)
-{ 
-System.out.println("Error.");
-}
-}
+import java.lang.*;
+import java.net.*;
+
+public class Netinterface {
+	public static void main(String[] args) {
+		try {
+			Enumeration n = NetworkInterface.getNetworkInterfaces();
+			while (n.hasMoreElements())
+				System.out.println(n.nextElement());
+		} catch (SocketException e) {
+			System.out.println("Error.");
+		}
+	}
 }
