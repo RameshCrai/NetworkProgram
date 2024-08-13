@@ -1,0 +1,73 @@
+Experiment No:1
+1.1 Understanding and using of commands like ifconfig, netstat, ping, arp,
+telnet, ftp, finger, traceroute, etc. Usage of elementary socket system calls
+(socket (), bind(), listen(), accept(), connect(), send(), recv(),
+sendto(),recvfrom()).
+Experiment No: 2
+2.1 Implementation of InetAddress Class, Objects and Getter including all
+the necessary imports and exception handling.
+Experiment No:3
+3.1 Determining whether an IP address is v4 or v6.
+Experiment No. 4
+4.1 Program to test the nature of an address entered from the command line.
+Experiment No. 5
+5.1 Program to demonstrate testing reachability.
+Experiment No. 6
+6.1 Program to demonstrate The Network Interface class with factory.
+Experiment No. 7
+7.1 Program to implement spamcheck and demonstrate the faults.
+Method.
+Experiment No: 8
+8.1 Program for determining which protocols a virtual machine supports.
+Experiment No. 9
+9.1 Download a web page using URL.
+Experiment No. 10
+10.1 Program to determine parts of a URLs.
+Experiment No. 11
+11.1 Program to check the equality of URLs.
+Experiment No. 12
+12.1 Program to observe parts of URIs.
+Experiment No. 13
+13.1 Program to implement x-www-form-urlencoded strings.
+Experiment No.14
+14.1 Program to demonstrate a proxyselector that rembember to what it
+canbe connected to.
+Experiment No. 15
+15.1 Program to implement an open directory search.
+Experiment No. 16
+16.1 Program to download a web page with the corrected character set in
+URL connection.
+Experiment No. 17
+17.1 Program to determine the URL connection is connected to which URL.
+Experiment No. 18
+18.1 Program to post a form using URL Connections class and Query Strings.
+Experiment No:. 19
+19.1 Program to show implementation of a day time client and server.
+Experiment No. 21
+21.1 Program to find the first 1024 ports seem to be hosting TCP servers on a
+specified host.
+Experiment No. 22
+22.1 Program to look for the local machine by attempting to create
+ServerSocket objects on them and seeing on which ports that fails.
+Experiment No. 23
+23.1 Program to get LocalPort() to find a nonanonymous port.
+Experiment No: 24
+24.1 Program that connects to a secure HTTP server, sends a simple GET
+request, and prints out the response.
+Experiment No: 24
+24.1 Program that connects to a secure HTTP server, sends a simple GET
+request, and prints out the response.
+Experiment No: 25
+25.1 Program to implement Nonblocking I/O.
+Experiment No. 26
+26.1 Program to show concurrent client and server using UDP.
+Experiment No. 27
+27.1 Program that construct datagramPacket to reveive data.
+Experiment No. 28
+28.1 Program to opens a channel just to check the default values of these
+options.
+Experiment No: 30
+30.1 WAP in Java to show the implementation of multithreaded chat
+application between client and server.
+Experiment No: 31
+31.1 WAP in Java to show the implementation of JAVA RMI.
