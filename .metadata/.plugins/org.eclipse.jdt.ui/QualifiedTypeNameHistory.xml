@@ -3,9 +3,13 @@
     <fullyQualifiedTypeName name="java.net.Inet4Address"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
-    <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
     <fullyQualifiedTypeName name="org.apache.commons.validator.routines.InetAddressValidator"/>
     <fullyQualifiedTypeName name="java.net.NetworkInterface"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.net.SocketException"/>
+    <fullyQualifiedTypeName name="BankDemo.Address"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="structures.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
 </qualifiedTypeNameHistroy>

@@ -7,30 +7,21 @@ import java.net.InetAddress;
 
 public class UdpServer {
 	public static void main(String args[]) throws IOException {
-
-		System.out.print("/* * * * * * * * * * * * * * * * * * * * * * * * * * */\n" + "\t\tU D P   S E R V E R\n"
-				+ "/* * * * * * * * * * * * * * * * * * * * * * * * * * */\n\n\n");
-
 		// declare the UDP server socket
 		DatagramSocket serverSocket = null;
 		int port;
-
 		port = 5555;
-
 		// create the UDP server socket with a specific port number
 		serverSocket = new DatagramSocket(port);
 		System.out.println("[UDP Server] Datagram Socket started on port " + port);
-
 		// prepare a the packet structure for received packets
 		int dataLength = 100; // must be large enough otherwise large message will not be fully received
 		byte[] receiveData = new byte[dataLength];
 		DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
-
 		while (true) {
 			// wait for incoming packets
 			System.out.println("[UDP Server] Waiting for incoming messages on port " + port + " ...");
 			serverSocket.receive(receivePacket);
-
 			// Extract received packet data
 			InetAddress IPAddress = receivePacket.getAddress();
 			int clientPort = receivePacket.getPort();
