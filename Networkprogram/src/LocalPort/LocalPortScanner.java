@@ -15,7 +15,7 @@ public class LocalPortScanner {
 				// make sure your firewalls are turned off as otherwise
 				// you will get an error and it looks as if a port is active
 				ServerSocket server = new ServerSocket(port);
-				System.out.println("Port can be use for you " + port);
+				System.out.println("Port can be use for you " + server.getLocalPort());
 			} catch (IOException e) {
 				System.out.println("There is a server on port ");
 			} // end try

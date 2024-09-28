@@ -1,4 +1,4 @@
-package InetAddress;
+package Lab;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -18,12 +18,7 @@ public class CheckIP {
 //	InetAddress address = InetAddress.getByName("2001:0db8:85a3:0000:0000:8a2e:0370:7334"); 
 //	InetAddress address = InetAddress.getByName("192.168.2.1");
 		InetAddress address = InetAddress.getByName("10.18.2.1");
-		byte[] bytes = address.getAddress();
-		for (byte b : bytes) {
-			System.out.println(b & 0xFF);
-		}
 
-//	address = InetAddress.getByName("192.168.2.1"); 
 		int x = getVersion(address);
 		switch (x) {
 		case 4:
